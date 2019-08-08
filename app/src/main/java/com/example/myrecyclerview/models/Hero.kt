@@ -1,4 +1,4 @@
-package com.example.myrecyclerview
+package com.example.myrecyclerview.models
 
 data class Hero (
     var name: String = "",

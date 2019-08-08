@@ -1,4 +1,4 @@
-package com.example.myrecyclerview
+package com.example.myrecyclerview.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -10,6 +10,8 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.example.myrecyclerview.R
+import com.example.myrecyclerview.models.Hero
 
 class CardViewHeroAdapter(private val listHeroes: ArrayList<Hero>) :
     RecyclerView.Adapter<CardViewHeroAdapter.CardViewViewHolder>() {

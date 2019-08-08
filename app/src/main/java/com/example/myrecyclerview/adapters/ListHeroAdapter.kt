@@ -1,4 +1,4 @@
-package com.example.myrecyclerview
+package com.example.myrecyclerview.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.example.myrecyclerview.R
+import com.example.myrecyclerview.models.Hero
 
 class ListHeroAdapter(private val listHero: ArrayList<Hero>) : RecyclerView.Adapter<ListHeroAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback

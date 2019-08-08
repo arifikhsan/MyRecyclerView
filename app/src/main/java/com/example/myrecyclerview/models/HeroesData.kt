@@ -1,4 +1,4 @@
-package com.example.myrecyclerview
+package com.example.myrecyclerview.models
 
 object HeroesData {
     private var data = arrayOf(

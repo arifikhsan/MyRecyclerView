@@ -8,6 +8,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myrecyclerview.adapters.CardViewHeroAdapter
+import com.example.myrecyclerview.adapters.GridHeroAdapter
+import com.example.myrecyclerview.adapters.ListHeroAdapter
+import com.example.myrecyclerview.models.Hero
+import com.example.myrecyclerview.models.HeroesData
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvHeroes: RecyclerView
